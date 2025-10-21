@@ -5,22 +5,22 @@
 #include "Number.h"
 
 
-float OperationCalc::Sum(const int a, const int b)
+float OperationCalc::Sum(const float a, const float b)
 {
 	return a+b;
 }
 
-float OperationCalc::Subtract(const int a, const int b)
+float OperationCalc::Subtract(const float a, const float b)
 {
 	return a-b;
 }
 
-float OperationCalc::Divide(const int a, const int b)
+float OperationCalc::Divide(const float a, const float b)
 {
 	return a/b;
 }
 
-float OperationCalc::Moltyplication(const int a, const int b)
+float OperationCalc::Moltyplication(const float a, const float b)
 {
 	return a*b;
 }

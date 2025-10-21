@@ -11,10 +11,10 @@ public:
 	Number* headNode;
 	Number* tailNode;
 
-	float Sum(const int a, const int b);
-	float Subtract(const int a, const int b);
-	float Divide(const int a, const int b);
-	float Moltyplication(const int a, const int b);
+	float Sum(const float a, const float b);
+	float Subtract(const float a, const float b);
+	float Divide(const float a, const float b);
+	float Moltyplication(const float a, const float b);
 
 	void SetResoult(const float a,const float b,float & n,const char c);
 
